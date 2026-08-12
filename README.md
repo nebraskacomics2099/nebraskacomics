@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nebraska Comics | Lincoln, NE</title>
+  <meta name="description" content="Nebraska Comics – Your destination for modern, vintage, graded, and rare comics in Lincoln, Nebraska. Buy • Sell • Trade.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0a0a0a;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #ff3b3b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(180deg, #111 0%, #0a0a0a 100%);
+      border-bottom: 3px solid #ff3b3b;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      margin: 0 auto 20px;
+      background: #ff3b3b;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 22px;
+      color: white;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+      box-shadow: 0 0 30px rgba(255, 59, 59, 0.4);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      color: #ccc;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 0;
+      border-bottom: 1px solid #222;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: #ff3b3b;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #151515;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 24px;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover {
+      border-color: #ff3b3b;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .card p {
+      color: #bbb;
+      font-size: 0.95rem;
+    }
+
+    /* Hours */
+    .hours-list {
+      list-style: none;
+    }
+
+    .hours-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #222;
+      font-size: 1.05rem;
+    }
+
+    .hours-list li:last-child {
+      border-bottom: none;
+    }
+
+    .hours-list span {
+      color: #aaa;
+    }
+
+    /* Contact */
+    .contact-info {
+      font-size: 1.1rem;
+    }
+
+    .contact-info p {
+      margin-bottom: 12px;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      background: #ff3b3b;
+      color: white !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none !important;
+      transition: background 0.2s, transform 0.15s;
+      margin: 6px 6px 6px 0;
+    }
+
+    .btn:hover {
+      background: #e02e2e;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #ff3b3b;
+      color: #ff3b3b !important;
+    }
+
+    .btn-outline:hover {
+      background: #ff3b3b;
+      color: white !important;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .logo {
+        width: 110px;
+        height: 110px;
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      NE<br>COMICS
+    </div>
+    <h1>Nebraska Comics</h1>
+    <p>Your destination for comics of all eras — modern blockbusters, vintage treasures, graded slabs, and hidden gems.</p>
+  </header>
+
+  <div class="container">
+
+    <!-- ABOUT / SERVICES -->
+    <section>
+      <h2>What We Offer</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Full Runs & Keys</h3>
+          <p>Complete comic book runs, key issues, one-shots, and rare finds from every era.</p>
+        </div>
+        <div class="card">
+          <h3>Graded Slabs</h3>
+          <p>CGC and other graded comics available. We also offer comic book pressing services.</p>
+        </div>
+        <div class="card">
+          <h3>$1 Bins</h3>
+          <p>Always restocked dollar bins packed with great reading copies and hidden gems.</p>
+        </div>
+        <div class="card">
+          <h3>Buy • Sell • Trade</h3>
+          <p>We’re always hunting for collections. Bring your comics — let’s make a deal!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOURS -->
+    <section>
+      <h2>Hours</h2>
+      <ul class="hours-list">
+        <li><strong>Monday – Saturday</strong> <span>10:00 AM – 6:00 PM</span></li>
+        <li><strong>Sunday</strong> <span>12:00 PM – 5:00 PM</span></li>
+      </ul>
+    </section>
+
+    <!-- LOCATION -->
+    <section>
+      <h2>Visit Us</h2>
+      <p style="font-size: 1.15rem; margin-bottom: 16px;">
+        Located inside <strong>Timeless Treasures</strong><br>
+        1717 O Street<br>
+        Lincoln, NE 68508
+      </p>
+      <a href="https://maps.google.com/?q=1717+O+St,+Lincoln,+NE+68508" target="_blank" class="btn">
+        Get Directions
+      </a>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>📧 Email: <a href="mailto:Contact@nebraskacomics.com">Contact@nebraskacomics.com</a></p>
+        <p>📱 Text: <a href="sms:4028536321">402-853-6321</a></p>
+      </div>
+      <div style="margin-top: 24px;">
+        <a href="https://www.facebook.com/" target="_blank" class="btn btn-outline">Facebook</a>
+        <a href="https://www.youtube.com/" target="_blank" class="btn btn-outline">YouTube</a>
+        <a href="https://x.com/Nebraska_comics" target="_blank" class="btn btn-outline">X / Twitter</a>
+        <a href="#" target="_blank" class="btn btn-outline">Discord</a>
+        <a href="#" target="_blank" class="btn">Shop on HipComic</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Nebraska Comics · Lincoln, Nebraska</p>
+    <p style="margin-top: 8px;">Buy • Sell • Trade · Always hunting for collections</p>
+  </footer>
+
+</body>
+</html>
